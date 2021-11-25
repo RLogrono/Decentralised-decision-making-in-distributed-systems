@@ -19,9 +19,6 @@ func main() {
 				rules = true
 			}
 		}
-		if os.Args[1] == "1" {
-			debug = true
-		}
 	}
 	if debug {
 		fmt.Println("Debug mode:")
